@@ -11,7 +11,7 @@ for i in range(5):
         print("You guessed the correct answer in "+ str(i+1) + " attemps")
         print("Thanx for playing..")
         break
-    elif(guess<secret):
+    elif(guess<secret): 
         print("Your guess is lower than my number")
     else:
         print("Your guess is higher than my number")
