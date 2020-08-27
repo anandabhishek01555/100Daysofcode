@@ -1,0 +1,10 @@
+arr=list(map(int,input().split()))
+n=int(input())
+i=0
+x=sum(arr[:n])
+while(n<=len(arr)):
+    if(sum(arr[i:n])>x):
+        x=sum(arr[i:n])
+    i+=1
+    n+=1
+print(x)
