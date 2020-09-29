@@ -23,3 +23,12 @@ class stack:
 
   def display(self):
     print(self.lst)
+    
+    
+st = stack()
+st.push(10)
+st.push(20)
+st.push(30)
+
+st.pop()
+st.pop()  
